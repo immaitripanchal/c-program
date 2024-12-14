@@ -1,0 +1,21 @@
+.vscode 
+
+# Ignore all files by default
+*
+
+# Allow .gitignore itself
+!.gitignore
+
+# Allow source files (exceptions to the previous rule)
+!*.c
+!*.h
+
+# Ignore specific binary output types
+*.o
+*.out
+*.a
+*.so
+*.exe
+
+# Allow directories (important for nested repositories)
+!*/
