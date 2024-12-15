@@ -5,6 +5,7 @@
 
 # Allow .gitignore itself
 !.gitignore
+!README.md
 
 # Allow source files (exceptions to the previous rule)
 !*.c
