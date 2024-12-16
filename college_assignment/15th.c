@@ -6,12 +6,14 @@ int main()
   char arr[50];
 
   printf("Enter first string: ");
-  scanf("%[^\n]s", str);
+  fgets(str, strlen(str), stdin);
+  // scanf("%[^\n]s", str);
 
-  getchar();
+  // getchar();
 
   printf("enter second string: ");
-  scanf("%[^\n]s", arr);
+  fgets(arr, strlen(arr), stdin);
+  // scanf("%[^\n]s", arr);
 
   char *ptr = str;
   char *ptr1 = arr;
