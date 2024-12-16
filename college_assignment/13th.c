@@ -7,12 +7,12 @@ int main()
 
   int arr[n];
   int *p = arr;
-  for (p = &arr[0]; p < &arr[n]; p++)
+  for (p = arr; p < arr + n; p++)
   {
     scanf("%d", p);
   }
 
-  for (p = &arr[0]; p < &arr[n]; p++)
+  for (p = arr; p < arr + n; p++)
   {
     printf("%d ", *p);
   }
