@@ -56,3 +56,17 @@
 //  {
 //      return ((int)aa);
 //  }
+// question 26
+union a
+{
+  int i;
+  char ch[2];
+};
+
+int main()
+{
+  union a z;
+  z.i = 512;
+  printf("%d %d", z.ch[0], z.ch[1]);
+  return 0;
+}
