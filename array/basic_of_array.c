@@ -10,3 +10,4 @@ void main()
   }
   printf("%d", arr[2]);
 }
+ccd
